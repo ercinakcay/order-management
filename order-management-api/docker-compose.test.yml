@@ -1,0 +1,21 @@
+version: '3'
+services:
+  web-server-test:
+    build:
+      context: .
+    ports:
+      - "8083:8083"
+    depends_on:
+      - redis
+      - mongo
+    environment:
+      - "JAVA_OPTS=-Dspring.profiles.active=test --add-opens java.base/java.lang=ALL-UNNAMED"
+  redis:
+    image: redis
+    hostname: redis
+    ports:
+      - "6379:6379"
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
