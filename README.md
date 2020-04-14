@@ -69,10 +69,10 @@ make buid-dev
 #### Integration Tests
 
 ```
-com.ea.nextordermanagementapi.test.bussiness.BasketTest
+com.ea.ordermanagementapi.test.bussiness.BasketTest
 ```
 ```
-com.ea.nextordermanagementapi.test.bussiness.OrderTest
+com.ea.ordermanagementapi.test.bussiness.OrderTest
 ```
 
 **Note:** Tests can be flacky cause of service caches. Prevention of this situation run the below curl operation.
