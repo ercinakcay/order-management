@@ -1,6 +1,6 @@
 # Order Management API
 
-Order management API is basicly taking customer basket and at the end of the transaction and compete through making order with all processes.
+Order management API is basically taking customer basket and at the end of the transaction and compete through making order with all processes.
 
 ## Getting Started
 
